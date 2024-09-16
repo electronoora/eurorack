@@ -1,0 +1,1 @@
+Front panel is designed to be manufactured using the Oshpark After Dark fabrication process which uses a clear solder mask. 

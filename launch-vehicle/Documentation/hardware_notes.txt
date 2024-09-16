@@ -1,0 +1,69 @@
+Unruly notes on hardware design
+
+
+- timer interrupt to update LED states
+
+- interrupt on TRIG input rising edge
+
+- interrupt on any 
+
+
+
+
+Pin mappings on ATmega:
+
+pa0	out	srck
+pa1	out	rck
+pa2	out	ser_in
+pa3	out	sel3
+pa4	out	sel2
+pa5	out	sel1
+
+
+pd0	in	sw_mute3
+pd1	in	sw_sel3
+pd2	in	sw_cue
+pd3	in	sw_mute2
+pd4	in	sw_sel2
+pd5	in	sw_mute1
+pd6	in	sw_sel1
+pd7	in	clock
+
+pf2	out	g
+pf3	out	mute1
+pf4	out	mute2
+pf5	out	mute3
+
+
+
+
+
+
+
+
+
+
+
+LED addresses on shift registers:
+
+U1
+0	mute3 sw
+1	mute2 sw
+2	mute1 sw
+3	-
+4	sel1 sw
+5	sel2 sw
+6	sel3 sw
+7	cue sw
+
+U2
+0	ch3 b selected
+1	ch3 a selected
+2	ch2 b selected
+3	ch2 a selected
+4	ch1 b selected
+5	ch1 a selected
+6	-
+7	-
+
+
