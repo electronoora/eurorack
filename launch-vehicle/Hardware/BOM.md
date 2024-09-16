@@ -44,6 +44,8 @@ Bill of materials for Launch Vehicle
 
 # Common hardware
 
-2x M2 washer
-2x M2 10mm standoff
-4x M2x6mm screw
+| Quantity | Description | 
+| --- | --- |
+| 2 | M2 washer |
+| 2 | M2 10mm standoff |
+| 4 | M2x6mm screw |
