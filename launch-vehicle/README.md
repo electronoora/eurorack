@@ -4,3 +4,4 @@ A 6HP eurorack module for switching between two input signals and muting/unmutin
 each other. Input switching and muting/unmuting actions can be staged to happen concurrently on multiple channels, and committed either manually with a button press or automatically
 by a trigger/gate signal.
 
+![Prototype #2](Images/prototype_1.jpeg)
